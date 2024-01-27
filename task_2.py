@@ -9,4 +9,4 @@ if __name__ == "__main__":
         root.insert(n)
 
     min_val_node = root.min_value_node()
-    print("min value: ", min_val_node.val)  # 2
+    print("min value: ", min_val_node)  # 2

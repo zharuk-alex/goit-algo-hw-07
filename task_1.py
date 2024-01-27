@@ -9,4 +9,4 @@ if __name__ == "__main__":
         root.insert(n)
 
     max_val_node = root.max_value_node()
-    print("max value: ", max_val_node.val)  # 8
+    print("max value: ", max_val_node)  # 8

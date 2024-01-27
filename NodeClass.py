@@ -41,13 +41,13 @@ class Node:
         current = self
         while current.left:
             current = current.left
-        return current
+        return current.val
 
     def max_value_node(self):
         current = self
         while current.right:
             current = current.right
-        return current
+        return current.val
 
     def sum_values(self):
         total = self.val
